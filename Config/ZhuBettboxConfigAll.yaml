@@ -54,7 +54,7 @@ proxy-providers:
     override:
       additional-prefix: 'p4 | ' # 给节点名称添加前缀，防止不同订阅的节点重名导致出现问题  
 
-    provider5:
+  provider5:
     <<: [*proxy_providers_common, *global_exclude_filter]
     url: 'https://tirn-zone-3qpzh3nxb5sl-1435068448.eo-edgefunctions.com/Users/id?token=e9c72baf82b578d183315cc3af049a3e&flag=meta' # TIRN Network,此处单引号中间填入机场订阅链接
     age-secret-key: '' # 此处填入机场订阅链接解密私钥，如果机场订阅链接需要解密才能使用，请将解密私钥填入单引号中间，否则不要改动此项
