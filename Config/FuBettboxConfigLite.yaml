@@ -32,7 +32,7 @@ proxy-providers:
       
   provider2:
     <<: [*proxy_providers_common, *global_exclude_filter]
-    url: 'https://token.lbxx.pro/api/v1/client/subscribe?token=50e0fd889bea11f1ae93fa163e9bab8a' # 蜡笔小新,此处单引号中间填入机场订阅链接
+    url: 'https://token.lbxx.pro/api/v1/client/subscribe?token=5fda2e4cb1dd11f1ae93fa163e9bab8a' # 蜡笔小新,此处单引号中间填入机场订阅链接
     age-secret-key: '' # 此处填入机场订阅链接解密私钥，如果机场订阅链接需要解密才能使用，请将解密私钥填入单引号中间，否则不要改动此项
     path: ./proxy_provider/provider2.yaml
     override:
@@ -40,7 +40,7 @@ proxy-providers:
 
   provider3:
     <<: [*proxy_providers_common, *global_exclude_filter]
-    url: 'https://0j.ee88.tk/6/5acfd6af7d8a70f367c235bf89af33de' # 零界,此处单引号中间填入机场订阅链接
+    url: 'https://920.nb666666.com/6/5acfd6af7d8a70f367c235bf89af33de' # 零界,此处单引号中间填入机场订阅链接
     age-secret-key: '' # 此处填入机场订阅链接解密私钥，如果机场订阅链接需要解密才能使用，请将解密私钥填入单引号中间，否则不要改动此项
     path: ./proxy_provider/provider3.yaml
     override:
